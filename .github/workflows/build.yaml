@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [22.03.0]
+        version: [22.03.2]
         target: [x86/64]
     runs-on: ubuntu-22.04
     steps:
